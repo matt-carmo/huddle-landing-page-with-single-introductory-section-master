@@ -1,0 +1,60 @@
+/*;  HEADING*/
+
+/**/
+:root {
+      --fontHeading: 'Poppins', sans-serif;
+      --fontBody: 'Open Sans', sans-serif;
+      --violet: hsl(257, 40%, 49%);
+      --SoftMagenta: hsl(300, 69%, 71%);
+    }
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+header{
+      margin: 2rem;
+}
+body{
+      background:url(/images/bg-desktop.svg) var(--violet);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+}
+main{
+      display: flex;
+      width: 90vw;
+      padding: 1rem;
+      display: flex;
+      margin: 0 auto;
+}
+section{
+      display: flex;
+      flex-direction: column;
+      padding:1rem 6rem;
+}
+section h1{
+      font-family: var(--fontHeading);
+      font-size: 2.5rem;
+}
+section p{
+      font-family: var(--fontBody);
+}
+
+section h1, p, button{
+      margin: 1rem 0;
+}
+
+
+.register{
+      font-family: var(--fontHeading);
+      color:var(--violet) ;
+      border-radius: 30px;
+      padding: 20px;
+      max-width: 200px;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      box-shadow: 10px 10px 10px 10px;
+      
+}
